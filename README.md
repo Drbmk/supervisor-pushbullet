@@ -1,5 +1,5 @@
 # supervisor-pushbullet
-[![License](https://img.shields.io/pypi/l/supervisor-alert.svg)](https://github.com/drmbk/supervisor-pushbullet/blob/master/LICENSE.txt)
+[![License](https://img.shields.io/pypi/l/supervisor-alert.svg)](https://github.com/drmbk/supervisor-pushbullet/blob/master/LICENSE)
 
 Are you using [Supervisor](http://supervisord.org) to manage processes on a
 server? With supervisor-pushbullet you can receive a pushbullet notification when the state of your
