@@ -13,7 +13,7 @@ Create the file `/etc/supervisor/conf.d/supervisor_pushbullet.conf` as root:
 command=/opt/tools/supervisor-pushbullet.py --apikey [PushBullet_API_KEY]
 process_name=%(program_name)s_%(process_num)s
 numprocs=1
-events=PROCESS_STATE
+events=PROCESS_STATE_FATAL
 autorestart=true
 ```
 Then enable the configuration
